@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto M1 - Ulman Tomás</title>
+    <link rel="shortcut icon" href="./assets/Logo Claro sin fondo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#mis-tecnologias-favoritas">Mis Tecnologías Favoritas</a></li>
+                <li><a href="#mis-actividades-favoritas">Mis Actividades Favoritas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <article class="titulo">
+                <h1>Sobre Mi</h1>
+            </article>
+            <article class="contenido">
+                <div class="perfil">
+                    <img src="assets/perfil.png" alt="Foto Perfil" class="img-perfil">
+                    <div class="enlaces-redes">
+                        <a href="https://www.instagram.com/tomiulman?igsh=MWoweGY3NWRkb3IzbA==" target="_blank">
+                            <img src="assets/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="https://x.com/TomiUlman?t=alGQNQZYMLacnFq13RzgTQ&s=08" target="_blank">
+                            <img src="assets/x.png" alt="X">
+                        </a>
+                        <a href="https://www.linkedin.com/in/tomas-ulman-959978212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <img src="assets/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://github.com/uttomi?tab=repositories" target="_blank"> 
+                            <img src="assets/github.png" alt="Github">
+                        </a>
+                    </div>
+                </div>
+                <div class="parrafo-presentacion">
+                    <p>Mi nombre es Tomás Ulman, tengo 23 años y soy de Felicia, un pequeño pueblo de la provincia de Santa Fe, Argentina.</p>
+                    <p>Actualmente estudio Ingeniería en Informática en la Facultad de Ingeniería y Ciencias Hídricas de la Universidad Nacional del Litoral.</p>
+                    <p>Me apasiona la tecnología, la programación y todo lo relacionado con el desarrollo de software, lo que me ha llevado a explorar diversas áreas mediante cursos y nuevas tecnologías. Además, disfruto mucho del diseño, ya sea de sitios web, aplicaciones o programas.</p>
+                    <p>Estoy en una búsqueda constante de aprendizaje y perfeccionamiento de mis habilidades, abordando cada desafío con dedicación y responsabilidad.</p>
+                    <p>Me apasionan los deportes, particularmente el fútbol, la Fórmula 1 y el pádel.</p>
+                </div>
+            </article>
+        </section>
+        
+
+        <section id="mis-tecnologias-favoritas">
+            <article class="titulo">
+                <h1>Mis Tecnologías Favoritas</h1>
+            </article>
+            <ul class="tarjetas-tecnologias">
+                <li class="tarjeta">
+                    <h2>JavaScript</h2>
+                    <img src="assets/js.png" alt="JavaScript">
+                </li>
+                <li class="tarjeta">
+                    <h2>HTML</h2>
+                    <img src="assets/html.png" alt="HTML">
+                </li>
+                <li class="tarjeta">
+                    <h2>CSS</h2>
+                    <img src="assets/css.png" alt="CSS">
+                </li>
+                <li class="tarjeta">
+                    <h2>Python</h2>
+                    <img src="assets/python.png" alt="Python">
+                </li>
+            </ul>
+        </section>
+
+        <section id="mis-actividades-favoritas">
+            <article class="titulo">
+                <h1>Mis Actividades Favoritas</h1>
+            </article>
+            <form class="activity-form">
+                <div>
+                    <label for="activity-title">TÍTULO</label>
+                    <input type="text" name="activity-title" id="activity-title" placeholder="Ingresa aquí un título">
+                </div>
+
+                <div>
+                    <label for="activity-description">DESCRIPCIÓN</label>
+                    <input type="text" name="activity-description" id="activity-description" placeholder="Ingresa aquí una descripción">
+                </div>
+
+                <div>
+                    <label for="activity-image">URL DE IMAGEN</label>
+                    <input type="text" name="activity-image" id="activity-image" placeholder="Ingresa aquí la URL de una imagen">
+                </div>
+
+                <button type="button" id="add-activity-button">Agregar actividad</button>
+            </form>
+
+            <div id="activity-container">
+               
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>¡Gracias por su atención!</p>
+        <img src="./assets/Logo Oscuro sin fondo.svg" alt="Logo">
+    </footer>
+
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
